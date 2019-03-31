@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chaney's Trivia Game</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Popular Cartoons Quiz!</h1>
+
+    <!--This button starts the quiz, timer,  and makes the rest of the body visible-->
+    <button type="button" id="start">"Let's Get Started!"</button> 
+    <p id="timer">___________</p>
+
+    <!--This div displays the results-->
+    <div id="after-Done">
+            <p id="correct"></p>
+            <p id="incorrect"></p>
+    </div>
+
+    <!--This is the form for all the questions and radio buttons for answers-->
+    <form id="quiz" name="quiz">
+
+        <p>Who is spongebob's best friend?</p>
+        <input type="radio" id="mc" name="question1" value="Sandy">Sandy<br>
+        <input type="radio" id="mc" name="question1" value="Gary">Gary<br>
+        <input type="radio" id="mc" name="question1" value="Patrick">Patrick<br>
+        <input type="radio" id="mc" name="question1" value="Squidward">Squidward<br>
+
+        <p>In the show Recess, what is the 1st name of all the popular girls?</p>
+        <input type="radio" id="mc" name="question2" value="Elizabeth">Elizabeth<br>
+        <input type="radio" id="mc" name="question2" value="Ashley">Ashley<br>
+        <input type="radio" id="mc" name="question2" value="Alice">Alice<br>
+        <input type="radio" id="mc" name="question2" value="Quinn">Quinn<br>
+
+        <p>What is Chuckie's sister's name in Rugrats?</p>
+        <input type="radio" id="mc" name="question3" value="Kimmie">Kimmie<br>
+        <input type="radio" id="mc" name="question3" value="Lil">Lil<br>
+        <input type="radio" id="mc" name="question3" value="Angelica">Angelica<br>
+        <input type="radio" id="mc" name="question3" value="DeeDee">DeeDee<br>
+
+        <p>What kind of animal is Rocko in Rocko's Modern Life?</p>
+        <input type="radio" id="mc" name="question4" value="Kangaroo">Kangaroo<br>
+        <input type="radio" id="mc" name="question4" value="Wallabee">Wallabee<br>
+        <input type="radio" id="mc" name="question4" value="Monkey">Monkey<br>
+        <input type="radio" id="mc" name="question4" value="Dog">Dog<br>
+
+        <p>What is the name of the group of dogs that bullies Catdog?</p>
+        <input type="radio" id="mc" name="question5" value="The Mob">The Mob<br>
+        <input type="radio" id="mc" name="question5" value="The Ruff Pups">The Ruff Pups<br>
+        <input type="radio" id="mc" name="question5" value="The Burgers">The Burgers<br>
+        <input type="radio" id="mc" name="question5" value="The Greasers">The Greasers<br>
+
+        <p>Who is the dumb fairy on Fairly Odd Parents?</p>
+        <input type="radio" id="mc" name="question6" value="Wanda">Wanda<br>
+        <input type="radio" id="mc" name="question6" value="Poof">Poof<br>
+        <input type="radio" id="mc" name="question6" value="Cosmo">Cosmo<br>
+        <input type="radio" id="mc" name="question6" value="Timmy">Timmy<br>
+
+        
+
+    </form>
+    <!--This button ends the quiz, timer, and hides the quiz-->
+    <button type="button" id="end">"I'm Done!"</button> 
+    <script type="text/javascript" src = "assets/javascript/app.js"></script>
+</body>
+</html>
